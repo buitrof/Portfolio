@@ -4,14 +4,13 @@ body {
 
 @media screen and (max-width: 768px) {
   .portfolio {
-    width: 600px;
-    padding: 50px;
+    max-width: 200px;
   }
   .form {
-    width: 600px;
+    max-width: 200px;
   }
   .main-portfolio {
-    padding: 50px;
+    max-width: 150px;
   }
 }
 
@@ -19,6 +18,10 @@ body {
   text-align: center;
   margin: 0 auto;
   margin-top: 25px;
+}
+
+.portfolio {
+  width: 600px;
 }
 
 .card {
@@ -38,6 +41,10 @@ h3 {
 
 .left {
   text-align: left;
+}
+
+.form {
+  width: 740px;;
 }
 
 .fixed-bottom {
