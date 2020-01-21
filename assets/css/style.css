@@ -4,6 +4,10 @@
   margin-top: 25px;
 }
 
+.right {
+  text-align: right;
+}
+
 .card {
   display: inline-block;
 }
