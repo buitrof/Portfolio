@@ -1,12 +1,9 @@
 @media screen and (max-width: 768px) {
-  .portfolio {
-    max-width: 200px;
+  #nav {
+    font-size: 12px;
   }
-  .form {
-    max-width: 250px;
-  }
-  .main-portfolio {
-    max-width: 150px;
+  .caption span.border {
+    font-size: 16px !important;
   }
 }
 
@@ -19,6 +16,7 @@ body {
   height: 50px;
   background: #fff;
   position: relative;
+  font-family: 'Syne', sans-serif;
 }
 
 #content {
