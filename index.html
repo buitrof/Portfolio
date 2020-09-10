@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>About</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/reset.css">  
-  <link rel="stylesheet" href="./assets/css/style.css">  
+  <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
-  <nav class="navbar  navbar-expand-lg navbar-light bg-light" style="background-color: #88a3b6;">
+  <div id="background">
+    <div class="caption">
+      <span class="border">
+        FRANCISCO BUITRON
+      </span>
+    </div>
+  </div>
+
+  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #88a3b6;">
     <a class="navbar-brand" href="#">Francisco Buitron</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,53 +31,108 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-        </li> 
+          <a class="nav-link" href="https://drive.google.com/file/d/1uKdpRim0ehpQCHvoizk7GUBoYcmYbX6S/view?usp=sharing"
+            target="_blank" rel=" noopener noreferrer">Resume</a>
+        </li>
       </ul>
     </div>
   </nav>
 
-<div class="container">
-  <div class="card mb-3" style="max-width: 700px;">
-    <div class="row no-gutters">
-      <h3 class="card-title">About Me</h3>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-md-7">
-        <img src="./assets/Images/About-me.jpg" class="card-img" alt="...">
+  <div id="content">
+
+    <div class="title card mb-3 border-0">
+      <div class="card-body">
+        <h5 class="card-title">Full Stack Web Developer</h5>
       </div>
-      <div class="col-md-4">
+    </div>
+
+    <div class="caption"></div>
+
+    <div id="portfolio" class="container portfolio">
+      <div class="card portfolio border-0">
         <div class="card-body">
-          <p class="card-text">Hello! I am Francisco Buitron, a 22-year-old student from Irvine, California. I have lived in Irvine for almost 13
-          years, attending high school locally at University High School. Previously, I had lived in Temecula. I attended UCSB for my
-          undergraduate degree in Biological Sciences. My hobbies include playing the guitar, piano, and basketball on the
-          weekends. I love to travel, make and listen to music, and watch sports. My favorite teams are the Indianapolis Colts and
-          the Los Angeles Lakers. I speak fluent Spanish and I hope to learn new languages, both spoken and coding.</p>
+          <h3 class="card-title">Portfolio</h3>
+          <div class="row row-cols-1 row-cols-sm-3">
+            <div class="col mb-4">
+              <div class="card main-portfolio h-100 border-0">
+                <img src="./assets/Images/Eatventss.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text info">Front End Developer: HTML, CSS, JS</p>
+                  <p class="card-text">EatVent, Event and Restaurant Finder</p>
+                  <a href="https://jfrick1992.github.io/EatVent-Finder/" class="card-title stretched-link"
+                    target="_blank" rel=" noopener noreferrer"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card main-portfolio h-100 border-0">
+                <img src="./assets/Images/pokess.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text info">Back End Developer: SQL, Express, React, Node</p>
+                  <p class="card-text">PokeBattles, a pokemon matchup generator</p>
+                  <a href="https://poke-battles.herokuapp.com/" class="card-title stretched-link" target="_blank"
+                    rel=" noopener noreferrer"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card main-portfolio h-100 border-0">
+                <img src="./assets/Images/pinss.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text info">Full Stack Developer: MongoDB, Express, React, Node</p>
+                  <p class="card-text">Project Idea Network, an app to share project ideas and solutions</p>
+                  <a href="https://still-mesa-24441.herokuapp.com/" class="card-title stretched-link" target="_blank"
+                    rel=" noopener noreferrer"></a>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3"></div>
+            <div class="col mb-4">
+              <div class="card main-portfolio h-100 border-0">
+                <img src="./assets/Images/Abhiss.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text info">Front End Developer: HTML, CSS, JS</p>
+                  <p class="card-text">Abhi the Nomad's website and store</p>
+                  <a href="https://abhithenomad.com/" class="card-title stretched-link" target="_blank"
+                    rel=" noopener noreferrer"></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="contact" id="contact">
+      <a href='mailto:franciscobuitron21@gmail.com' class="btn btn-outline-dark contact" role="button">Contact Me</a>
+    </div>
+
+    <div class="social">
+      <a class="social btn btn-dark" href="https://www.github.com/buitrof" target="_blank"
+        rel=" noopener noreferrer">GitHub</a>
+      <a class="social btn btn-dark" href="https://www.linkedin.com/in/franciscobuitron/" target="_blank"
+        rel=" noopener noreferrer">LinkedIn</a>
+      <a class="social btn btn-dark"
+        href="https://drive.google.com/file/d/1uKdpRim0ehpQCHvoizk7GUBoYcmYbX6S/view?usp=sharing" target="_blank"
+        rel=" noopener noreferrer">Resume</a>
+    </div>
+
   </div>
-</div>
 
-<nav class="navbar fixed-bottom navbar-dark bg-dark">
-  <p class=navbar-text>
-    &copy; Copyright
-  </p>
-</nav>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="./assets/JS/app.js"></script>
+
 </html>
