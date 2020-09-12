@@ -5,6 +5,9 @@
   .caption span.border {
     font-size: 16px !important;
   }
+  #background {
+    background-size: contain;
+  }
 }
 
 body {
@@ -32,7 +35,7 @@ body {
   right: 0;
   top: 0;
   min-height: 600px;
-  background-size: cover
+  background-size: cover;
 }
 
 .caption {
